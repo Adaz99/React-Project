@@ -1,5 +1,5 @@
 // App.jsx
-import "./App.css";
+import "./App.scss";
 
 const App = () => {
   return (
