@@ -18,10 +18,10 @@ const minus = () => {
 }
 return (
     <div className="counter">
-        <p>My Counter</p>
+        <p></p>
         <p>{counter}</p>
-        <button onClick={plus}>+</button>
         <button onClick={minus}>-</button>
+        <button onClick={plus}>+</button>
 
 
     </div>
