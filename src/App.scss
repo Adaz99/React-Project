@@ -1,19 +1,41 @@
-.tickets {
-  display: grid;
-  height: 60vh;
-  width: 85vw;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 3.5%;
+* {
+  background: #DD5E89;  
+  background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  
+  background: linear-gradient(to right, #F7BB97, #DD5E89); 
   
-
 }
 
-.app {
-  background-color: burlywood;
+@media screen and (min-width: 320px) {
+  .App {
+    &__tickets {
+      display: grid;
+      height: 60vh;
+      width: 85vw;
+      gap: 2%;
+      align-self: auto;
+      padding-left: 20px;
+    }
+    &__SearchBox {
+      text-align: center;
+    }
+
+    &__heading {
+      text-align: center;
+    }
+  }
 }
 
-.greeting__heading{
-  text-align: center;
+@media screen and (min-width: 1024px) {
+  .App {
+    &__tickets {
+      display: grid;
+      height: 60vh;
+      width: 85vw;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 2%;
+      padding-left: 100px;
+      align-self: auto;
+    }
+  }
 }
-  

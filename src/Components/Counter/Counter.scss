@@ -1,0 +1,13 @@
+.counter {
+  padding-bottom: 40px;
+  border: 2px solid black;
+
+&__heading{
+font-weight: bold;
+}
+&__button{
+    display: flex;
+   align-items: center;
+}
+
+}

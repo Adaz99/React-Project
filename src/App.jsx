@@ -24,11 +24,13 @@ const App = () => {
     setFiltered(filtered);
   };
   return (
-    <div className="app">
+    <div className="App">
       <header className="greeting">
-        <h1 className="greeting__heading">Ticket Tracker</h1>
+        <h1 className="App__heading">Ticket Tracker</h1>
+        <div className="App__SearchBox" >
         <SearchBox handleInput={handleInput} />
-        <div className="tickets">
+        </div>
+        <div className="App__tickets">
           <Users users={filtered.length > 0 ? filtered : Data} />
         </div>
       </header>
