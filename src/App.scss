@@ -1,0 +1,19 @@
+.tickets {
+  display: grid;
+  height: 60vh;
+  width: 85vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3.5%;
+  
+
+}
+
+.app {
+  background-color: burlywood;
+}
+
+.greeting__heading{
+  text-align: center;
+}
+  

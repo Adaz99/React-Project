@@ -5,7 +5,7 @@ const UserInfo = (props) => {
   const { name, role } = props;
 
   return (
-    <div>
+    <div className="ticket__info">
        <p>{name}</p>
        <p>{role}</p>
        <Counter/>
